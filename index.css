@@ -1,0 +1,511 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Neue Machina regular";
+}
+
+body{
+	background-color: #f0f0f0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: none;
+    gap: 30px;
+}
+
+.nav-links {
+    list-style: none;
+    margin-left: -400px;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links a {
+    color: #151515;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.burger {
+    display: none;
+}
+
+nav ul span {
+	margin-left: 300px;
+}
+
+span .login{
+	background-color: #fff;
+	padding: 10px;
+	margin: 5px;
+	border: none;
+}
+
+span .signup{
+	background-color: #151515;
+	padding: 10px;
+	margin: 5px;
+	border: none;
+	color: #fff;
+}
+/*end of navigation styles*/
+
+.intro-container{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	gap: 70px;
+	height: 580px;
+	margin-top: 50px;
+}
+
+.intro{
+	width: 565px;
+	height: 524px;
+}
+
+.intro-header{
+	width: 565px;
+	font-family: Neue Machina;
+	weigth: 400;
+	font-size: 18px;
+	color: #151515;
+	margin-bottom: 15px;
+}
+
+.intro-header h3{
+	width: 550px;
+	font-size: 47px;
+	colors: #151515;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.intro-header p{
+	margin-bottom: 20px;
+}
+
+
+.intro-img{
+	width: 565px;
+	height: 524px;
+}
+
+.intro-img img{
+	width: 500px;
+	height: 510px;
+}
+
+.intro-input input{
+	height: 40px;
+	width: 400px;
+	margin-bottom: 40px;
+}
+
+.intro-input button{
+	height: 44px;
+	width: 115px;
+	margin-left: -7px;
+	color: #fff;
+	background-color: #151515;
+	margin-bottom: 40px;
+}
+
+
+/*about use styles*/
+
+.about-head{
+	text-align: center;
+	border: 2px solid #151515;
+	padding: 7px;
+	width: 120px;
+	margin-bottom: 15px;
+}
+
+.about-container{
+	margin-top: 30px;
+	margin-bottom: 100px;
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+
+.about-texts{
+	width: 600px;
+	height: 524px;
+}
+
+.about-header h3{
+	width: 550px;
+	font-size: 40px;
+	colors: #151515;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+.about-paragraph {
+	width: 590px;
+	font-family: Neue Machina;
+	weigth: 400;
+	font-size: 18px;
+	color: #151515;
+	margin-bottom: 15px;
+}
+
+.about-img{
+	width: 600px;
+	height: 510px;
+}
+
+.about-img img{
+	width: 600px;
+	height: 510px;
+}
+.about-li{
+	line-height: 40px;
+}
+
+/*end of about us styles*/
+
+
+
+/*how it works styles*/
+	.work-section{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 70px;
+		margin: 30px 0 70px 0;
+	}
+
+	.work-text-section{
+		width: 600px;
+		padding: 10px;
+		margin-left: 30px;
+	}
+
+	.work-text-section .topic{
+		text-align: center;
+		border: 2px solid #151515;
+		padding: 10px;
+		width: 200px;
+		margin-bottom: 15px;
+	}
+
+	.w-lists{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 20px 0 20px 0;
+	}
+
+	.work-img-section{
+		width: 500px;
+	}
+
+	.work-header h3{
+		font-size: 47px;
+		colors: #151515;
+		margin-bottom: 20px;
+		font-weight: 400;
+	}
+
+	.w-lists-header{
+		font-size: 25px;
+		font-weight: 400;
+	}
+
+	.w-img img{
+		width: 80px;
+		height: 80px;
+		margin-right: 25px;
+	}
+/* end of how it works styles*/
+
+
+
+/*pricing container styles*/
+.p1-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 70px;
+	margin-bottom: 40px;
+
+}
+
+.p2-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 70px;
+}
+
+.pricing-text{
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	justify-content: right;
+}
+
+.pricing-text .pricing{
+	text-align: center;
+	border: 2px solid #151515;
+	padding: 7px;
+	width: 100px;
+	margin-bottom: 15px;
+	margin-left: auto;
+}
+
+
+.pricing-text .head{
+	width: 600px;
+	font-size: 43px;
+	colors: #151515;
+	font-weight: 400;
+	margin-bottom: 15px;
+	text-align: right;
+	margin-left: auto;
+}
+
+.pricing-text p{
+	width: 700px;
+	weigth: 400;
+	font-size: 18px;
+	color: #151515;
+	margin-bottom: 15px;
+	text-align: right;
+}
+
+.card{
+	width: 350px;
+	height: 544px;
+	border: 1px solid #151515;
+	line-height: 20px;
+	padding: 20px;
+}
+
+.card button{
+	width: 90%;
+	padding: 15px;
+	text-align: center;
+	margin-left: 15px;
+	color: #fff;
+	border: none;
+	background-color: #151515;
+
+}
+
+.card-head{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.card-head sup, .card-head sub{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.card-head sub{
+	margin-top: 50px;
+}
+.card h3{
+	font-weight: bold;
+	font-size: 100px;
+}
+
+.card li{
+	line-height: 1px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#card2{
+	color: #fff;
+	background-color: #151515;
+}
+
+#card2 button{
+	color: #151515;
+	background-color:#fff ;
+}
+#card3{
+	background-color: #fff;
+	border: none;
+}
+/*end of pricing container styles*/
+
+
+/*faqs section styles*/
+.faqs-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 90px 30px 40px 30px;
+}
+
+.faqs-text{
+	height: Hug(697px);
+	width: 700px;
+}
+
+.faqs-container .faqs{
+	text-align: center;
+	border: 2px solid #151515;
+	padding: 7px;
+	width: 120px;
+	margin-bottom: 15px;
+}
+
+.faqs-container .questions{
+	font-size: 50px;
+	font-weight: 400;
+	margin: 20px 0 20px 0;
+}
+
+.faqs-container .questions, .faqs-container .questions-p{
+	width: 550px;
+}
+
+.faqs-container .questions-p{
+	margin-bottom: 40px;
+}
+
+
+.accordion .accordionbx{
+	position: relative;
+	border-bottom: 2px solid #151515;
+}
+
+.accordion .accordionbx .label{
+	position: relative;
+	padding: 10px;
+	background: none;
+	color: #151515;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.accordion .accordionbx .label::before{
+	content: '+';
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translate(-50px);
+	font-size: 1.5em;
+}
+
+.accordion .accordionbx.active .content{
+	content: '-';
+}
+
+.accordion .accordionbx .content{
+	position: relative;
+	background: none;
+	height: 0;
+	overflow: hidden;
+	transition: 0.5%;
+	overflow-y: auto;
+	margin-bottom: 30px;
+}
+
+.accordion .accordionbx.active .content{
+	height: 150px;
+	padding: 10px;
+}
+
+/*end of faqs section styles*/
+
+.footer{
+	background-color: #151515;
+	color: #f0f0f0;
+	padding: 40px 0 40px 0;
+}
+
+.logo{
+	width: 484px;
+}
+
+.logo img{
+	margin-bottom: 30px;
+}
+
+.logo h3{
+	font-size: 52px;
+	font-weight: 400;
+	line-height: 60px;
+	letter-spacing: -4px;
+	margin-bottom: 40px;
+}
+
+.logo input{
+	height: 40px;
+	width: 380px;
+	margin-bottom: 40px;
+}
+
+.logo button{
+	height: 42px;
+	width: 90px;
+	margin-left: -7px;
+	color: #fff;
+	background-color: #151515;
+	margin-bottom: 40px;
+	border: 1px solid #fff;
+}
+
+.footer1{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 50px;
+
+}
+
+.footer2{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 40px 0 40px;
+}
+
+.footer1 .email, .footer1 .footer-navs, .footer1 .footer-extra{
+	line-height: 50px;
+	margin-bottom: 80px;
+}
+
+.footer1 .email{
+	margin-top: -150px;
+}
+
+.footer1 .footer-navs{
+	margin-top: -70px;
+}
+
+.footer1 .footer-extra{
+	margin-top: -30px;
+}
+
+.footer1 .footer-navs li {
+	list-style-type: none;
+}
+
+.footer1 .footer-navs li a{
+	text-decoration: none;
+	color: #fff;
+}
